@@ -1,0 +1,36 @@
+<html>
+    <head>
+	<link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" href="./css/bootstrap.min.css" />
+	<meta charset="UTF-8">
+
+	<script type="text/javascript" src="./lib/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="./src/main.js"></script>
+	<script type="text/javascript" src="./src/algorithm.js"></script>
+	<script type="text/javascript" src="./src/utils.js"></script>
+	<script type="text/javascript" src="./src/data.js"></script>
+    </head>
+    <body>
+	<div class="container">
+	    <header>
+		<h1 id="title">Résolution du problème du voyageur de commerce utilisant les algorithmes génétiques</h1>
+	    </header>
+	    <div class="row-fluid">
+		<div id="control_bottons" class="btn-group row">
+		    <button id="addRandom_btn" class="btn">Ajouter 50 villes aléatoires</button>
+		    <button id="start_btn" class="btn">Start/Restart</button>
+		    <button id="stop_btn" class="btn">Stop/Continuer</button>
+		    <button id="clear_btn" class="btn">Nettoyer</button>
+		</div>
+		<div class="row">
+		    <span id="status" class="show-grid"></span>
+		</div>
+		<canvas id="canvas" 
+		    width="880" height="660"
+		    style="border:1px solid;">
+		    Essayé de changer de navigateur
+		</canvas>
+	    </div>
+	</div>
+    </body>
+</html>
